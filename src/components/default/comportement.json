@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_default_comportements",
+  "info": {
+    "displayName": "comportement"
+  },
+  "options": {},
+  "attributes": {
+    "valeur": {
+      "type": "string"
+    },
+    "objectif": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

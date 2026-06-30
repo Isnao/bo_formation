@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_default_bilan_comportements",
+  "info": {
+    "displayName": "bilan_comportement"
+  },
+  "options": {},
+  "attributes": {
+    "niveau": {
+      "type": "string"
+    },
+    "comportement": {
+      "type": "string"
+    },
+    "capture": {
+      "type": "date"
+    },
+    "signal": {
+      "type": "date"
+    },
+    "duree": {
+      "type": "date"
+    },
+    "position": {
+      "type": "date"
+    },
+    "distance": {
+      "type": "date"
+    },
+    "distraction": {
+      "type": "date"
+    },
+    "generalisation": {
+      "type": "date"
+    },
+    "maitrise": {
+      "type": "date"
+    }
+  },
+  "config": {}
+}

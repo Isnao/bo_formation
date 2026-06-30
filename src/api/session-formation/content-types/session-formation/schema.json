@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "session_formations",
+  "info": {
+    "singularName": "session-formation",
+    "pluralName": "session-formations",
+    "displayName": "Session formation"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "duree": {
+      "type": "integer"
+    },
+    "sessionValide": {
+      "type": "boolean"
+    },
+    "comportements": {
+      "type": "component",
+      "component": "default.comportement",
+      "repeatable": true,
+      "required": true
+    },
+    "utilisateur": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "session_formations"
+    }
+  }
+}
